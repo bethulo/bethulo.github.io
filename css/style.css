@@ -1,0 +1,1282 @@
+/*start of index css file*/
+.section{
+  height: 1000vh;
+  width:100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items:center;  
+}
+.section video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit:cover;
+  width: 100%;
+  height:100%;
+  pointer-events:none;   
+}
+.section .content
+{
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin:0 auto;
+  text-align:center; 
+}
+.section .content p
+{
+  color:white;
+  font-size:100px;  
+}
+.home
+{
+  background-color:#eee;
+  height:2400px; 
+
+}
+
+.top_bar
+{
+ background-color:#cb3027;
+ height:46px;    	
+}
+
+.top_bar h2
+{
+font-size:14px;
+float:right;
+color:white;
+margin-right:20px;         
+}
+
+.top_bar h1
+{
+ font-size:14px;
+float:left;
+color:white;
+margin-left:13px;      
+}
+.logo
+{
+ background-color:#ffffff;   
+}
+
+.logo img
+{
+ background-color:#ffffff;
+ margin:13px; 
+
+}
+
+.sway
+{
+ background-color:white;
+}
+
+.sway ul
+{
+float:left;
+margin:16px; 
+
+}
+
+.sway ul li
+{
+text-decoration:none;    
+list-style-type:none;
+display:inline-block;   
+margin-top:30px;
+padding-bottom: 0px;
+font-size:21px;
+margin-left:34px;  
+}
+
+.sway ul li a
+{
+text-decoration:none;     
+color:black;
+padding-bottom:10px;
+transition: 0.5s;   
+}
+
+.sway ul li a:hover
+
+{
+text-decoration:none;     
+color:#650404;
+border-bottom:9px solid red; 
+}
+
+
+.sway .active > a, .active > a:focus,.active > a:hover
+{
+    color: #7f1919;
+    border-bottom: 9px solid red;
+}
+
+.modal-body ul li
+{
+  list-style:none; 
+}
+
+
+.three
+{
+ 
+}
+.bundi
+{
+  background-color:#7f1919;
+  opacity:0.9;
+  height:448px; 
+
+}
+.bundi h2
+{
+  color:white;
+  font-size:20px;     
+}
+.bundi h4
+{
+  color:white;
+  font-size:18.5px;     
+}
+
+.part
+{
+ margin-top:70px; 	
+}
+
+.tory
+{
+ background-color:#ffffff;
+ height:151px; 
+ margin-top:30px; 
+ background:url(../images/buda.jpg) no-repeat;
+ background-position:center;	
+}
+.tory:hover
+{
+ 
+ background:url(../images/buda.jpg) no-repeat;
+ background-position:center;
+ height:151px; 
+ transition:0.5s;   
+}
+.treezy
+{
+ background-color:black;
+ height:151px;
+ margin-top:30px; 
+ background:url(../images/coach.jpg) no-repeat;
+ background-position:center;	
+}
+
+.cruz
+{
+ background-color:yellow;
+ height:151px;
+ margin-top:30px; 
+ background:url(../images/coast.jpg) no-repeat;
+ background-position:center;	
+}
+
+.view
+{
+ background-color:#eee;
+ height:36px;
+ margin-top:60px;
+
+}
+
+.vw
+{
+background-color:#eee;
+height:36px;
+margin-top:60px; 	
+}
+
+.vi
+{
+background-color:#eee;
+height:36px;
+margin-top:60px;	
+}
+
+.btn 
+{
+   
+    background-color:#7e1919;
+    height:30px;
+    width:80px; 
+    float:right;
+    margin-right:172px;   
+    border-radius: 5px;
+    margin-top:5px; 
+}
+.btn:hover
+{
+   
+    background-color:red;
+    height:30px;
+    width:80px; 
+    float:right;
+    margin-right:172px;   
+    border-radius: 5px;
+    margin-top:5px; 
+}
+.seven
+{
+ background-color:#650404;  
+ margin-top:120px; 	
+}
+
+.seven h4
+{
+  color:white;
+  font-size:31px;
+  text-align:center;     
+}
+
+.kelly
+{
+  background-color:#650404;
+  height:177px;
+  margin-top:20px;   
+}
+
+.kelly h6
+{
+  margin-left:38px;     
+}
+
+.kelly p
+{
+  color:white;     
+}
+
+.johnie
+{
+  background-color:#650404;
+  height:177px;
+  margin-top:20px;   
+}
+
+.johnie h6
+{
+  margin-left:38px;     
+}
+
+.johnie p
+{
+  color:white;     
+}
+
+.ayo
+{
+  background-color:#650404;
+  height:177px;
+  margin-top:20px;   
+}
+
+.ayo h6
+{
+  margin-left:38px;     
+}
+
+.ayo p
+{
+  color:white;     
+}
+
+.teo
+{
+  background-color:#650404;
+  height:177px;
+  margin-top:20px;   
+}
+
+.teo h6
+{
+  margin-left:38px;     
+}
+
+.teo p
+{
+  color:white;     
+}
+
+.alex
+{
+margin-top:45px;
+}
+
+.apple
+{
+margin-top:15px;
+}
+
+.witcha
+{
+ background-color:white;
+ height:124px;
+ padding-left:5px;
+ margin-right:15px;   
+}
+
+.witcha img
+{
+ margin-top:18px;
+ margin-left:40px;   
+}
+
+.witcha h5
+{
+ float:right;
+ margin-right:69px;  
+ margin-top:18px;
+ font-size:14px;   
+}
+
+.witcha p
+{
+float:right;
+padding-left:190px;
+margin-top:-40px;
+}
+
+.zaxby
+{
+  background-color:white;
+  height:124px;	
+}
+
+.zaxby img
+{
+ margin-top:18px;
+ margin-left:40px;   
+}
+
+.zaxby h5
+{
+ float:right;
+ margin-right:69px;  
+ margin-top:18px;
+ font-size:14px;   
+}
+
+.zaxby p
+{
+float:right;
+padding-left:160px;
+margin-top:-40px;    
+}
+
+.chain
+{
+ background-color:white;
+ height:124px;
+ margin-right:15px; 
+ 
+}
+
+.chain img
+{
+ margin-top:18px;
+ margin-left:40px;   
+}
+
+.chain h5
+{
+ float:right;
+ margin-right:77px;  
+ margin-top:18px;
+ font-size:14px;   
+}
+
+.chain p
+{
+float:right;
+padding-left:180px;
+margin-top:-40px;    
+}
+
+.smokers
+{
+  background-color:white;
+  height:124px;
+}
+
+.smokers img
+{
+ margin-top:18px;
+ margin-left:40px;   
+}
+
+.smokers h5
+{
+ float:right;
+ margin-right:69px;  
+ margin-top:18px;
+ font-size:14px;   
+}
+
+.smokers p
+{
+float:right;
+padding-left:150px;
+margin-top:-40px;    
+}
+
+.blah
+{
+  margin-left:300px;
+  margin-top:30px;    
+}
+
+.ten
+{
+  background-color:black;
+  background:url(../images/kuya.jpg) no-repeat;
+  background-position:center;
+  margin-top:88px;
+      
+}
+
+.this
+{
+
+ float:left;
+ margin:10px;
+ padding-left:25px;       
+}
+
+.submit
+{
+ height:40px;
+ float:left;
+ margin:10px;
+ margin-top:5px;
+ background-color:#cb3027;
+ border-color:#cb3027;
+ color:white;    
+}
+.submit:hover
+{
+ height:40px;
+ float:left;
+ margin:10px;
+ margin-top:5px;
+ background-color:#68130e;
+ border-color:#68130e;
+ color:white;    
+}
+.eleven
+{
+  background-color:#373434;
+  height:366px;
+ 
+}
+
+.like
+{
+  height:257px;
+  background-color:#373434;
+  margin-top:50px; 
+}
+
+.like h3
+{
+ margin-top:-18px;
+ font-size:20px;
+ margin-left:20px;    
+}
+
+.like p
+{
+color:white;
+font-size:22px;
+margin-left:120px;    
+}
+
+.that
+{
+  height:257px;
+  background-color:#373434;
+  margin-top:50px;
+}
+
+.that h3
+{
+color:white;
+font-size:20px;
+margin-left:60px;   
+}
+
+.that h6
+{
+color:white;
+margin-top:20px;
+font-size:18px;
+margin-left:60px;    
+}
+
+.that a
+{
+ text-decoration:none;
+ color:white;
+}
+
+.that h6 :hover
+{
+  background:#650404;
+  transition: all ease-in-out 0.1s;  
+}
+
+.these
+{
+  height:257px;
+  background-color:#373434;
+  margin-top:50px; 
+}
+
+.these h6
+{
+ font-size:18px;
+ color:white;
+ margin-top:15px;
+ margin-left:30px;     
+}
+
+.these h3
+{
+ color:white;
+ font-size:20px;
+ margin-left:30px;      
+}
+
+.those
+{
+  height:257px;
+  background-color:#373434;
+  margin-top:50px; 
+}
+
+.those h3
+{
+color:white;
+font-size:20px;
+}
+
+.those h6
+{
+margin-top:15px; 
+}
+
+.bethuel
+{
+  height:97px;
+  width:97px;
+  background-color:#fff;
+  margin-top:60px;
+  float:left;
+  margin-left:100px;
+}
+
+.groot
+{
+  height:97px;
+  width:97px;
+  background-color:#fff;          
+  float:left; 
+  margin-top:60px;
+  margin-left:100px;
+}
+.woo
+{
+height:97px;
+width:97px;
+background-color:#fff;         
+margin-top:60px;
+float:left;
+margin-left:100px;             
+}
+
+.guya
+{
+height:97px;
+width:97px;
+background-color:#fff;
+float:left;
+margin-top:60px;
+margin-left:250px;    
+}
+
+.riet
+{
+  float:right;
+  margin-top:-325px;
+  margin-right:-5px;
+}
+
+.deady
+{
+  float:right;
+  margin-top:-253px;
+  margin-right:120px;
+}
+
+.gro
+{
+ color:white;
+ border-radius:5px;  
+}
+
+.bed
+{
+  float:right;
+  margin-top:-40px;
+  margin-right:20px;
+  border-radius:5px;
+  background-color:black;
+  color:white;
+  border-color:black;  
+}
+.bed:hover
+{
+  float:right;
+  margin-top:-40px;
+  margin-right:20px;
+  border-radius:5px;
+  background-color:#cb3027;
+  color:white;
+  border-color:#cb3027;  
+}
+.visit
+{
+  padding-top:48px; 
+}
+
+/*end of index css file*/
+
+/*start of about us css file*/
+
+.aboutus
+{
+  height:1700px;
+  background-color:#eee;  
+}
+
+.fan
+{
+ height:106px;
+ background-color:black;   
+}
+
+.fan h2
+{
+ color:white;
+ margin-top:30px;
+ margin-left:89px;
+ font-size:45px;       
+}
+
+.banner
+{
+ background-color:black;
+ background:url(../images/bout.jpg) no-repeat;
+ background-position:center;
+ height:426px;       
+}
+
+.banner p
+{
+ color:white;
+ font-size:41px;
+ float:left; 
+ padding-left:100px;
+ padding-top:140px;
+ font-style: italic;    
+}
+
+.bull
+{
+  margin-top:57px; 
+}
+
+.bo
+{
+  background-color:#480d0a;
+  height:292px;
+  background:url(../images/mapeople.jpg) no-repeat;
+  background-position:center;
+}
+
+.pow
+{
+  background-color:#000000;
+  height:292px;
+}
+
+.pow p
+{
+  color:white;
+  margin-top:20px;
+  font-size:22px;  
+}
+
+.pow h2
+{
+  color:white;
+  margin-top:30px;
+  font-size:37px;  
+}
+
+.mwisho
+{
+  background-color:red;
+  margin-top:61px;
+  background:url(../images/bout.jpg) no-repeat;
+  background-position:center;
+}
+
+.bash
+{
+height:253px;
+background-color:#8b1b15;
+margin:45px;
+margin-left:40px;    
+}
+
+.bash img
+{
+ margin-left:60px; 
+}
+
+.bash h3
+{
+ margin-left:30px;
+ color:white;
+ font-size:26px;  
+}
+
+.bash p
+{
+ margin-left:10px;
+ color:white;
+ font-size:12px; 
+}
+
+.foota
+{
+ min-height:446px;
+ background-color:#373434;  
+}
+
+.mbwaya
+{
+height:253px;
+background-color:#f51f12;
+margin:45px;
+margin-left:40px;
+}
+
+.mbwaya img
+{
+ margin-left:40px; 
+}
+
+.mbwaya h3
+{
+ margin-left:30px;
+ color:white;
+ font-size:26px;  
+}
+
+.mbwaya p
+{
+ margin-left:10px;
+ color:white;
+ font-size:12px;  
+}
+
+.eden
+{
+height:253px;
+background-color:#621915;
+margin:45px;
+margin-left:40px;
+}
+
+.eden img
+{
+ margin-left:60px; 
+}
+
+.eden h3
+{
+ margin-left:15px;
+ color:white;
+ font-size:26px;   
+}
+
+.eden p
+{
+ margin-left:10px;
+ color:white;
+ font-size:12px; 
+}
+.button_8
+{
+  float:right;
+  margin:10px;
+  border-radius:10px;
+  background-color: #511111;
+  border-color:#511111;
+  width:146px;
+  height:41px;       
+}
+.button_8:hover
+{
+  float:right;
+  margin:10px;
+  border-radius:10px;
+  background-color:red;
+  border-color:red;
+  width:146px;
+  height:41px;       
+}
+.footer
+{
+ min-height:446px;
+ background-color:#373434;
+ margin-top:103px;    
+}
+
+.sm p 
+{
+  color:white;
+  padding-top:46px;
+  font-size:22px;
+  padding-left:92px;    
+}
+
+.sm img
+{
+ padding-top:74px; 
+}
+
+.sum ul 
+{ 
+ color:white;
+ padding-top:36px;
+ font-size:18px;
+ list-style:none; 
+}
+
+.sum a 
+{ 
+ text-decoration:none; 
+ color:white;
+}
+
+ .sum a:hover 
+{ 
+ text-decoration:none; 
+ color:red;
+}
+
+.sum h3
+{
+  color:white;
+  padding-top:86px;
+  padding-left:10px;   
+}
+
+.sum li
+{
+  padding-top:10px;   
+}
+
+.sim h3
+{
+  padding-top:86px;
+  padding-left:45px;
+  color:white;    
+}
+
+.sim ul
+{
+ list-style:none; 
+ font-size:18px;
+ color:white;
+ padding-top:36px;      
+}
+
+.sim li
+{
+  padding-top:15px;  
+}
+
+.samo h3
+{
+padding-top:86px;
+color:white;
+padding-left:20px; 
+}
+
+.samo ul
+{
+ list-style:none; 
+ color:white;
+ padding-top:36px;
+float:left;  
+}
+
+.samo li
+{
+  padding-top:10px; 
+}
+
+/*end of about us css file*/
+
+/*start of gallery css file*/
+.trav
+{
+ background-color:black;
+ height:472px;     
+}
+
+.trav p
+{
+  color:white;
+  font-size:36.04px;
+  padding-top:176px;
+  padding-left:104px;
+  font-style:italic;      
+}
+
+.trof
+{
+  padding-top:70px;
+}
+
+.button_1
+{
+  height:39px;
+  width:75px;
+  background-color:black;
+  border-color:black;     
+}
+.button_1:hover
+{
+  height:39px;
+  width:75px;
+  background-color:#cb3027;
+  border-color:#cb3027;
+
+}
+.button_2
+{
+  height:39px;
+  width:140px;
+  background-color:#650d0d;
+  border-color:#650d0d;
+     
+}
+.button_2:hover
+{
+  height:39px;
+  width:140px;
+  background-color:#cb3027;
+  border-color:#cb3027;
+     
+}
+.button_3
+{
+  height:39px;
+  width:140px;
+  background-color:#650d0d;
+  border-color:#650d0d;   
+}
+.button_3:hover
+{
+  height:39px;
+  width:140px;
+  background-color:#cb3027;
+  border-color:#cb3027;
+     
+}
+.warap
+{
+  margin:15px;
+}
+
+.trio
+{
+  padding-top:33px;
+}
+
+.ohio
+{
+ height:353px;
+ margin-left:60px;  
+}
+
+.yeye
+{
+ height:353px;   
+}
+
+.mimi
+{
+ height:353px;
+}
+
+.duo
+{
+  padding-top:12px;
+}
+
+.kali
+{
+ height:353px;
+ margin-left:60px; 
+}
+
+.img_wrap
+{
+position: relative;
+height: 200px;
+width: 257px;   
+}
+.img_description
+{
+  position:absolute;
+  top: 170px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color:#eee;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 50px;
+  text-align: center;
+  transition:opacity. 2s,visibility. 2s;
+  font-size:30px; 
+}
+
+.img_wrap:hover
+.img_description
+{
+  visibility: visible;
+  opacity:1;   
+}
+.img_wrap:hover
+{
+  visibility: visible;
+  opacity:0.9;    
+}
+
+.poa
+{
+ height:353px;   
+}
+.poa
+{
+ height:353px;   
+}
+
+.nice
+{
+ height:353px;
+ 
+}
+
+.baboon
+{
+ padding-top:25px;  
+}
+
+.button_5
+{
+ height:31px;
+ width:190px;
+ background-color:black;
+ border-radius:10px;
+ border-color:black;   
+}
+.button_5:hover
+{
+ height:31px;
+ width:190px;
+ background-color:#cb3027;
+ border-radius:10px;
+ border-color:#cb3027;   
+}
+.button_5 a
+{
+  color:white;
+  text-decoration:none;  
+}
+
+/*end of gallery css file*/
+
+/* start of contacts css file*/
+
+.contact
+{
+  height:1700px;
+  background-color:#eee;
+}
+
+.bano
+{
+ height:405px; 
+ background-color:black;
+ background:url(../images/BOON.jpg) no-repeat;
+ background-position:center;   
+}
+
+.bano h2
+{
+  color:white;
+  padding-left:523px;
+  padding-top:135px;
+  font-size:62px;
+  font-style:italic;    
+}
+
+.how
+{
+  padding-top:67px;
+}
+
+.wild
+{
+  height:47px;
+  background-color:black;      
+}
+
+.wild p
+{
+ color:white;
+ padding-top:15px;       
+}
+
+.arif
+{
+  height:146px;
+  background-color:black;
+  background:url(../images/map.jpg) no-repeat;
+  background-position:center; 
+}
+
+.huba
+{
+  background-color:#ebe3e3; 
+}
+
+.huba h3
+{
+ font-size:25px;  
+}
+
+.huba ul
+{
+  float:left;  
+}
+
+.huba li
+{
+  float:left;
+  padding:20px;
+  list-style:none;  
+
+}
+
+.hub
+{
+ background-color:#ebe3e3;  
+}
+
+.hub h4
+{
+ color:#750404;  
+}
+
+.dex
+{
+  float:right;
+  padding-top:-29px;  
+}
+
+.yoh
+{
+  height:29px;
+}
+
+.yoh p
+{
+  font-family:Georgia;
+}
+
+.bed a
+{
+  color:white;
+  text-decoration:none;  
+}
+
+/* end of contacts css file*/
+.contain
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+body{
+  background: black;
+}
+.contain span
+{
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+.text1
+{
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background:black;
+  margin-bottom:20px;
+  position:relative;
+  animation:  text 3s 1;
+}
+.text2
+{
+  font-size: 2S0px;
+  color: #6ab04c;
+}
+@keyframes text
+{
+  0%{
+   
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+
